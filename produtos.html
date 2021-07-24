@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE-edge">
+      <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+      <link rel="stylesheet" href="css/style.css">
+    <title>Molly Mania Store</title>
+    
+  </head>
+  <body>
+    
+    <section class="section-container" >
+     
+      <div class="nav">
+            <h1>Sistema de Cadastros</h1>
+            <img src="assets/logo.png" alt="logotipo" alt="logo" width="200px" height="auto"  />
+        </div>
+        <div class="cadastro" id="content">
+
+        <form id="form">
+           
+          <h1>Cadastro de Produtos</h1>
+          <input  type="text" placeholder="Descrição" size="10" maxlength="10" id="descricao" >           
+          <input type="number" placeholder="Código de barras"  pattern="\d*" maxlength="13" id="barras" >
+          <input type="text" placeholder="Valor Unitário" step="0.01" name="quantity" min="0.01" id="unitario" >                  
+          <input type="text" placeholder="Valor de venda" id="venda">
+          <input type="text" placeholder="Quantidade" id="quantidade">          
+          <input type="text" placeholder="Marca" id="marca">                                   
+          <input type="submit" placeholder="cadastrar" id="cad">  
+          
+      </form>
+
+        
+           <div class="tabela-prod">
+          <table >
+            <thead>
+                <tr>
+                  <br>
+                    <th>Descrição</th>
+                    <th>Código de barras</th>
+                    <th>Valor Unitário</th>
+                    <th>Valor de venda</th>
+                    <th>Quantidade</th>
+                    <th>Marca</th>
+                </tr>
+            </thead>
+            <tbody id="tabela-produtos">
+      
+            </tbody>
+        </table>
+      </div>
+          
+     
+      
+    </div>
+    
+    </section>
+    <main class="container-botoes">
+      <form action="index.html" method="get">
+          <button class="botao">Voltar</button>
+        
+  </main>
+  </body>
+  <script src="js/script1.js"></script>
+</html>

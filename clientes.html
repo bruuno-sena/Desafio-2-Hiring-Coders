@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE-edge">
+      <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+      <link rel="stylesheet" href="css/style.css">
+    <title>Molly Mania Store</title>
+    
+  </head>
+  <body>
+    
+    <section class="section-container" >
+     
+      <div class="nav">
+            <h1>Sistema de Cadastros</h1>
+            <img src="assets/logo.png" alt="logotipo" alt="logo" width="200px" height="auto"  />
+        </div>
+        <div class="cadastro" id="content">
+        <form id="form">
+           
+            <h1>Cadastro de Clientes</h1>
+            <input type="text"  placeholder="* Nome" id="nome" required>           
+            <input type="email" placeholder="* E-mail" id="email" required>
+            <input type="text" class="form-control cpf-mask" placeholder="* CPF" id="cpf" maxlength="14"  required>                  
+            <input type="date" class="date" placeholder="Data de Nascimento" id="nascimento">
+            <input type="text" placeholder="Endereço" id="endereco">
+            <input type="number" placeholder="Número" id="numero">          
+            <input type="text" class="form-control phone-mask" placeholder="* (xx) xxxxx-xxxx" id="telefone" required  >          
+            <input type="text" placeholder="Complemento" id="complemento">          
+            <input type="text" placeholder="Bairro" id="bairro">                  
+            <input type="text" placeholder="Cidade" id="cidade">
+            <input type="text" placeholder="UF" id="uf">                    
+            <input type="number" placeholder="CEP" id="cep">                   
+            <input type="submit" placeholder="cadastrar" id="cad">        
+        </form>
+    </div>
+    </section>
+
+    <main class="container-botoes">
+      <form action="index.html" method="get">
+          <button class="botao">Voltar</button>
+                  </form>
+  </main>
+  </body>
+  <script src="js/script.js"></script>
+</html>
