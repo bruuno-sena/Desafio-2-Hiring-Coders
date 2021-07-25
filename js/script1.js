@@ -51,16 +51,5 @@ form.addEventListener('submit',(e) =>
             $("#field").val(this.value.match(/[0-9]*/));
         });
       });
- // localStorage.setItem('lead',produtos)
-
-   // let content = document.getElementById('content')
-    //let carregando = `<p>carregando...</p>`
-    
-   // let pronto = `<p>Cadastro realizado com sucesso!</p>`
-  //  content.innerHTML = pronto
-    
-
-   // setTimeout(() => {
-     //   content.innerHTML = pronto
-    //}, 1000)
+ 
 })
