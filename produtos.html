@@ -10,7 +10,7 @@
   </head>
   <body>
     
-    <section class="section-container" >
+    <section class="section-container background-section-one" >
      
       <div class="nav">
             <h1>Sistema de Cadastros</h1>
@@ -29,38 +29,36 @@
           <input type="text" placeholder="Marca" id="marca">                                   
           <input type="submit" placeholder="cadastrar" id="cad">  
           
-      </form>
-
-        
-           <div class="tabela-prod">
-          <table >
-            <thead>
-                <tr>
-                  <br>
-                    <th>Descrição</th>
-                    <th>Código de barras</th>
-                    <th>Valor Unitário</th>
-                    <th>Valor de venda</th>
-                    <th>Quantidade</th>
-                    <th>Marca</th>
-                </tr>
-            </thead>
-            <tbody id="tabela-produtos">
-      
-            </tbody>
-        </table>
+        </form>  
       </div>
+      <main class="container-botoes">
+        <form action="index.html" method="get">
+            <button class="botao">Voltar</button>
           
-     
-      
-    </div>
-    
+    </main>
     </section>
-    <main class="container-botoes">
-      <form action="index.html" method="get">
-          <button class="botao">Voltar</button>
-        
-  </main>
+    <section class="section-container background-section-two">
+      <div class="tabela-prod">
+        <table >
+          <thead>
+              <tr>
+                <br>
+                  <th>Descrição</th>
+                  <th>Código de barras</th>
+                  <th>Valor Unitário</th>
+                  <th>Valor de venda</th>
+                  <th>Quantidade</th>
+                  <th>Marca</th>
+              </tr>
+          </thead>
+          <tbody id="tabela-produtos">
+    
+          </tbody>
+      </table>
+    </div>
+    </section>
+ 
+
   </body>
   <script src="js/script1.js"></script>
 </html>

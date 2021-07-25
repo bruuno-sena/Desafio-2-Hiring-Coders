@@ -2,39 +2,26 @@
     margin: 0;
     padding: 0;
 }
-html {
-    scroll-behavior: smooth;
-}
-
 .section-container {
+    height: 100vh;
     width: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-.section-container2{
-    height: 64vh;
-   
-}
-.section-container3{
-    height: 17vh;
 
-}
-.background-section-one {
-    background: #000;   
+body{
+   /*background-image: url(../assets/bg.jpg);    */
+    background:#000;
     background-attachment: fixed;
     background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.background-section-two {
-    background: #000;   
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: auto;
+
+html {
+    scroll-behavior: smooth;
 }
-
-
 .nav{
     position: relative;
     top: 30px;
@@ -65,7 +52,7 @@ html {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #form{
-    height: 50vh;
+    height: 48vh;
     width: 25%;
     background: #e2e2;
     display: flex;
@@ -76,8 +63,8 @@ html {
     padding: 25px;
 }
 .tabela-prod table{
-    width: 80%;
-    margin: auto;
+    width: 120%;
+    margin: 5px;
 	text-align: center;
 	font-size: 1.5em;
     border-collapse: collapse; /* CSS2 */
@@ -98,9 +85,8 @@ html {
 }
 .container-botoes{
     display: flex;
+    margin-top: 150px;
     justify-content: center;
-    background-color: #000;
-    margin-top: 15px;
 }
 .botao {
         margin: 0 20px;
@@ -147,12 +133,4 @@ input::-webkit-inner-spin-button {
 
 input[type=number] {
     -moz-appearance:textfield;
-}
-footer{
-    height: 50px;
-    padding: 25px;
-    text-align: center;
-    background-color: #000;
-    color: #fff;
-
 }
